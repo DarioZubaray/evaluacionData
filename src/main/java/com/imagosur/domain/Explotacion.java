@@ -4,7 +4,7 @@ public class Explotacion {
 
     private Long idExplotacion;
     private String descripcionExplotacion;
-    private Long inactiva;
+    private Long inactivo;
 
     public Long getIdExplotacion() {
         return idExplotacion;
@@ -22,17 +22,17 @@ public class Explotacion {
         this.descripcionExplotacion = descripcionExplotacion;
     }
 
-    public Long getInactiva() {
-        return inactiva;
+    public Long getInactivo() {
+        return inactivo;
     }
 
-    public void setInactiva(Long inactiva) {
-        this.inactiva = inactiva;
+    public void setInactivo(Long inactivo) {
+        this.inactivo = inactivo;
     }
 
     @Override
     public String toString() {
-        return "Explotacion [idExplotacion=" + idExplotacion + ", descripcionExplotacion=" + descripcionExplotacion + ", inactiva=" + inactiva + "]";
+        return "Explotacion [idExplotacion=" + idExplotacion + ", descripcionExplotacion=" + descripcionExplotacion + ", inactiva=" + inactivo + "]";
     }
 
 }

@@ -50,7 +50,7 @@ public class VisualizacionEvaluaciones {
     }
 
     private static Date string2Date(String source) throws ParseException {
-        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yy");
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss.S");
         return sdf.parse(source);
     }
 
